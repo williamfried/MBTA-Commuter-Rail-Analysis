@@ -364,10 +364,10 @@ south_station = (42.352620, -71.055425)
 def commute_time(month, day, hour, minute, coordinates, dest):
 
 	commute_results = gmaps.distance_matrix(origins = coordinates,
-											destinations = dest,
-											mode = 'driving',
-											departure_time = datetime(2020, month, day, hour, minute, 0, 0),
-											traffic_model = 'best_guess')
+						destinations = dest,
+						mode = 'driving',
+						departure_time = datetime(2020, month, day, hour, minute, 0, 0),
+						traffic_model = 'best_guess')
 	try:
 		for i in range(len(commute_results['rows'])):
 			duration = commute_results['rows'][i]['elements'][0]['duration_in_traffic']['value']
