@@ -2,4 +2,6 @@ I sought to formulate a data-driven rationale for why the MBTA should invest in 
 
 I presented my findings to the Vice Chair of the MBTA Fiscal and Management Control Board, who in turn presented my analysis to the rest of the Board. I also presented the results to the Manager of Long-Range Planning of MassDOT, as well as transportation planners in charge of the upcoming MBTA Rail Vision study (https://www.mbta.com/projects/rail-vision). 
 
-See massDOT_presentation.pptx for my final presentationl.
+See massDOT_presentation.pptx for my final presentation.
+
+Note: This was my first ever data science project and at the time I had very little experience with Python so the code design is quite poor.
